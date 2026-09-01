@@ -34,7 +34,7 @@ Este Código de Conduta se aplica tanto dentro dos espaços do projeto quanto em
 
 ## Execução
 
-Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser relatadas entrando em contato com a equipe do projeto em [roberto.lmc@example.com]. Todos os reclamações serão revisadas e investigadas e resultarão em uma resposta que se julga necessária e apropriada às circunstâncias.
+Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser relatadas entrando em contato com a equipe do projeto em [santigarudananda@gmail.com]. Todos os reclamações serão revisadas e investigadas e resultarão em uma resposta que se julga necessária e apropriada às circunstâncias.
 
 ## Atribuição
 
