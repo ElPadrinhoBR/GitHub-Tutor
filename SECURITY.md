@@ -22,7 +22,7 @@ Se você descobrir uma vulnerabilidade de segurança, **não abra uma issue púb
 
 ### Como reportar:
 
-1. Envie um email para: [security@gittutor.com](mailto:security@gittutor.com)
+1. Envie um email para: [security@gittutor.com](mailto:santigarudananda@gmail.com)
 2. Descreva a vulnerabilidade em detalhes
 3. Inclua passos para reproduzir (se possível)
 4. Seu relatório será revisado dentro de 48 horas
@@ -62,7 +62,7 @@ Seguimos os princípios de divulgação responsável. Vulnerabilidades reportada
 ## 📞 Contato
 
 Para questões de segurança, entre em contato conosco através de:
-- Email: security@gittutor.com
+- Email: santigarudananda@gmail.com
 - GitHub Issues: Para não-segurança
 
 ---
