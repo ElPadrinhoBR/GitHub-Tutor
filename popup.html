@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Git Tutor</title>
+    <style>
+      :root {
+        --bg: #10131a;
+        --panel: #171d2a;
+        --border: #2d3748;
+        --text: #edf2ff;
+        --muted: #b5bfd3;
+        --accent: #8b5cf6;
+        --accent-2: #22c55e;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: linear-gradient(180deg, #10131a, #181d2b);
+        color: var(--text);
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        padding: 18px 16px 14px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: 18px;
+        color: #f7d77a;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 12px 0;
+      }
+
+      label {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 48px;
+        height: 26px;
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        inset: 0;
+        background: #374151;
+        border-radius: 999px;
+        transition: 0.2s ease;
+      }
+
+      .slider::before {
+        content: "";
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        left: 4px;
+        top: 4px;
+        border-radius: 50%;
+        background: white;
+        transition: 0.2s ease;
+      }
+
+      input:checked + .slider {
+        background: var(--accent);
+      }
+
+      input:checked + .slider::before {
+        transform: translateX(22px);
+      }
+
+      select {
+        width: 100%;
+        margin-top: 6px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        background: #111827;
+        color: var(--text);
+        border: 1px solid var(--border);
+      }
+
+      .status {
+        margin-top: 12px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        background: rgba(34, 197, 94, 0.08);
+        border: 1px solid rgba(34, 197, 94, 0.3);
+        color: #b7f7c9;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .status.disabled {
+        background: rgba(245, 158, 11, 0.08);
+        border-color: rgba(245, 158, 11, 0.35);
+        color: #fbe5a7;
+      }
+
+      .author {
+        margin-top: 14px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .author strong {
+        color: var(--text);
+      }
+
+      .author a {
+        color: #9dc8ff;
+        text-decoration: none;
+      }
+
+      .author a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Git Tutor</h1>
+
+      <div class="row">
+        <label for="enabled">Ativar extensão</label>
+        <label class="switch">
+          <input id="enabled" type="checkbox" checked />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div>
+        <label for="language">Idioma</label>
+        <select id="language">
+          <option value="pt">Português</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
+
+      <div id="status" class="status">Tutor ativo</div>
+
+      <div class="author">
+        <strong>Sobre o autor:</strong>
+        <a href="https://www.linkedin.com/in/robertolmc/" target="_blank" rel="noreferrer">Roberto LMC</a>
+      </div>
+    </div>
+
+    <script src="dist/popup.js"></script>
+  </body>
+</html>

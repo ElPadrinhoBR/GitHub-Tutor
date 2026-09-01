@@ -1,0 +1,17 @@
+{
+  "name": "git-tutor-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run bundle",
+    "bundle": "node build.js",
+    "watch": "tsc --project tsconfig.json --watch",
+    "dev": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.21.0",
+    "typescript": "^5.6.3"
+  }
+}

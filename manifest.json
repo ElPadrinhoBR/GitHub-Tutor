@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Git Tutor",
+  "version": "0.1.0",
+  "description": "Tutorial interativo de Git em páginas de repositórios do GitHub.",
+  "action": {
+    "default_title": "Git Tutor",
+    "default_popup": "popup.html",
+    "default_icon": "ico.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["dist/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "permissions": [
+    "storage",
+    "scripting"
+  ]
+}
