@@ -1,1 +1,70 @@
-# Política de Segurança - Git Tutor\n\n## Segurança e Privacidade\n\nA privacidade e a segurança dos dados dos usuários são prioridades máximas do Git Tutor.\n\n## Princípios de Segurança\n\n### 🔒 Zero Tracking\n- ✅ **Nenhum dado é coletado**\n- ✅ **Nenhuma telemetria enviada**\n- ✅ **Nenhum rastreamento de usuário**\n\n### 💾 Armazenamento Local\n- Configurações armazenadas apenas em `chrome.storage.local`\n- Dados nunca são sincronizados com servidores\n- Dados permanecem no seu navegador\n\n### 🔐 Isolamento de Código\n- Script injetado usa Shadow DOM\n- Estilos não afetam GitHub\n- GitHub não pode acessar dados da extensão\n\n### ⚙️ Permissões Mínimas\n- `storage` - Apenas para guardar preferências\n- `scripting` - Apenas para injetar tooltips\n- Nenhuma permissão de network\n- Nenhuma permissão de história\n\n## Reportando Vulnerabilidades\n\nSe você descobrir uma vulnerabilidade de segurança, **NÃO** abra uma issue pública.\n\nEm vez disso, reporte para:\n- 📧 **Email**: [securityreport@example.com](mailto:securityreport@example.com)\n- 🔗 **LinkedIn**: [linkedin.com/in/robertolmc](https://www.linkedin.com/in/robertolmc/)\n\nPor favor inclua:\n1. Descrição da vulnerabilidade\n2. Passos para reproduzir\n3. Impacto potencial\n4. Sugestões de correção (se tiver)\n\n## Política de Resposta\n\n- ⏱️ Confirmação em 48 horas\n- 🔧 Correção em até 7 dias\n- 📢 Divulgação responsável conforme acordado\n- 🙏 Crédito público (se desejado)\n\n## Atualizações de Segurança\n\nAcompanhe atualizações em:\n- [Releases](https://github.com/ElPadrinho/git-tutor/releases)\n- [Security Advisories](https://github.com/ElPadrinho/git-tutor/security/advisories)\n\n## Dependências\n\nNenhuma dependência de runtime (zero npm packages em produção).\n\nDependências de desenvolvimento:\n- `typescript` - Compilador\n- `esbuild` - Bundler\n\nTodas verificadas regularmente em [dependabot](https://dependabot.com/).\n\n## Conformidade\n\n- ✅ MIT License (código aberto)\n- ✅ Manifest V3 (segurança de navegador)\n- ✅ GDPR compliant (sem dados pessoais)\n- ✅ Code review antes de merge\n\n---\n\n**Obrigado por ajudar a manter Git Tutor seguro! 🛡️**\n"
+# Política de Segurança - Git Tutor
+
+## 📋 Sumário Executivo
+
+A privacidade e a segurança dos dados dos usuários são prioridades máximas do Git Tutor.
+
+---
+
+## 🔐 Segurança e Privacidade
+
+### Princípios de Segurança
+
+- **Confidencialidade**: Proteção de dados sensíveis e informações do usuário
+- **Integridade**: Garantir que dados não sejam alterados ou corrompidos
+- **Disponibilidade**: Assegurar acesso contínuo e confiável ao serviço
+
+---
+
+## 🚨 Relatando Vulnerabilidades
+
+Se você descobrir uma vulnerabilidade de segurança, **não abra uma issue pública**. 
+
+### Como reportar:
+
+1. Envie um email para: [security@gittutor.com](mailto:security@gittutor.com)
+2. Descreva a vulnerabilidade em detalhes
+3. Inclua passos para reproduzir (se possível)
+4. Seu relatório será revisado dentro de 48 horas
+
+---
+
+## 🛡️ Medidas de Proteção Implementadas
+
+- Criptografia de dados em trânsito (HTTPS/TLS)
+- Validação e sanitização de entradas
+- Proteção contra ataques comuns (SQL Injection, XSS, CSRF)
+- Autenticação segura
+- Logs de auditoria
+
+---
+
+## ✅ Boas Práticas para Usuários
+
+- Use senhas fortes e únicas
+- Habilite autenticação de dois fatores (2FA)
+- Não compartilhe credenciais ou tokens de acesso
+- Mantenha seu cliente Git atualizado
+- Revise regularmente as permissões concedidas
+
+---
+
+## 📝 Divulgação Responsável
+
+Seguimos os princípios de divulgação responsável. Vulnerabilidades reportadas serão:
+
+1. **Investigadas** dentro de um prazo razoável
+2. **Corrigidas** com segurança antes da divulgação pública
+3. **Reconhecidas** publicamente (quando apropriado)
+
+---
+
+## 📞 Contato
+
+Para questões de segurança, entre em contato conosco através de:
+- Email: security@gittutor.com
+- GitHub Issues: Para não-segurança
+
+---
+
+**Última atualização**: Setembro de 2026
