@@ -23,7 +23,19 @@ Perfeita para iniciantes que desejam entender a interface do GitHub sem abandona
 
 ---
 
-## 📚 Elementos Cobertos
+## �️ Screenshots
+
+<div align="center">
+  <img src="screan01.png" alt="Git Tutor interface 1" width="720" />
+  <br /><br />
+  <img src="screan02.png" alt="Git Tutor interface 2" width="720" />
+  <br /><br />
+  <img src="screan03.png" alt="Git Tutor interface 3" width="720" />
+</div>
+
+---
+
+## �📚 Elementos Cobertos
 
 ### Navegação & Abas
 - **Code** - Visualização de arquivos e estrutura
